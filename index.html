@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>js programming language</title>
+</head>
+<body style="text-align:center;">
+
+<script>
+
+
+	// 1. Program to print natural numbers from 1 to n.
+
+
+	var n=10
+	for( var i=1; i<= n; i++ ){
+
+		document.write(i+'<br>');
+
+	}
+
+
+
+
+// 	2. Write a C program to print all    natural numbers in reverse
+  // from n to 1 using for loop.
+
+  var n=1
+  for( var i=10; i>=n; i-- ){
+ 	
+ 	document.write(i+"<br>");
+  }
+
+
+
+
+// 4. Write a C program to find the sum of all natural numbers
+// between 1 to n using for loop. 
+ 
+
+ var n= 10;
+ var sum= 0;
+
+
+  for( var i=1; i<=n; i++ ){
+  	sum=sum+i;
+
+  }
+  document.write(sum+ '<br>');
+
+
+
+
+
+//   5. Write a C program to input a number from user and print
+// multiplication table of the given number using for loop.
+
+
+var n=10;
+
+for( var i=1; i<=10; i++){
+	document.write(i+'*'+n+'='+i*n+'<br>')
+}
+
+
+
+// 6. Write a C program to input a number from user and count
+// number of digits in the given integer using loop.
+
+
+
+var number = 1234;
+var reminder =0;
+var sum = 0;
+var count = 0;
+ 
+ while( number !=0){
+
+ 	reminder = number % 10;
+ 	sum = sum +reminder;
+
+ 	number=parseInt(number / 10);
+ 	count++;
+ }
+
+document.write ('sum'+sum+'<br>');
+
+document.write ('total digit ' +count +'<br>');
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
